@@ -127,10 +127,27 @@ header .left-bar span {
     justify-content: center;
     align-items: center;
 }
+.prize .info-prize {
+    padding:10px;
+    bottom: 0;
+}
+.prize .info-prize h4 {
+    font-family: 'OpenSans-regular';
+    font-weight: bold;
+    font-size: 15px;
+}
+.prize .info-prize .style1 {
+    color:#d0c4c4;
 
+}
+.prize .info-prize .style2 {
+    color: red;
+    font-weight: bold;
+}
 
 .prize {
     display: flex;
+    align-items: center;
 }
 /*End Our Top*/
 .search-container {
@@ -143,6 +160,7 @@ header .left-bar span {
     height: 45px;
     color: #999999;
     outline: none;
+    border-color: #DDD;
     font-family: 'OpenSans-Regular';
 }
 .search-container dutton {
@@ -162,6 +180,8 @@ header .left-bar span {
         display: flex;
         justify-content: space-evenly;
         margin-top: 2%;
+        align-items: center;
+
 }
 
 .logo .resize .logo-info span {
