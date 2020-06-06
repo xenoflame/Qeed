@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Our Fonts*/
+@font-face {
+    font-family: 'Tajawal-Black';
+    src: url('../fonts/ar/Tajawal-Black.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Bold';
+    src: url('../fonts/ar/Tajawal-Bold.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Tajawal-ExtraBold';
+    src: url('../fonts/ar/Tajawal-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Tajawal-ExtraLight';
+    src: url('../fonts/ar/Tajawal-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Tajawal-Light';
+    src: url('../fonts/ar/Tajawal-Light.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Medium';
+    src: url('../fonts/ar/Tajawal-Medium.ttf');
+}
+@font-face {
+    font-family: 'Tajawal-Regular';
+    src: url('../fonts/ar/Tajawal-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/en/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../fonts/en/OpenSans-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../fonts/en/OpenSans-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBolditalic';
+    src: url('../fonts/en/OpenSans-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/en/OpenSans-Italic.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/en/OpenSans-Light.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../fonts/en/OpenSans-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/en/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/en/OpenSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBoldItalic';
+    src: url('../fonts/en/OpenSans-SemiBoldItalic.ttf');
+}
+
+/* End Our Fonts*/ 
+
+
+/*Start Our Style */
+header {
+    margin-bottom: 50px;
+}
+.top-bar {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #DDD;
+    
+}
+header .bar-info i {
+    padding: 20px;
+    
+}
+header .bar-info i .right{
+    color:#d0c4c4;
+}
+header .bar-info i .left {
+    font-family: 'OpenSans-Regular';
+}
+
+/*end 1st Section*/
+
+header .left-bar {
+   margin-left:40%;
+   margin-top: 10px;
+   display: flex;
+   border-left: 2px solid #DDD;
+}
+
+header .left-bar span {
+    color:#d0c4c4 ;
+    letter-spacing: 2px;
+    
+}
+.left-bar .Langu {
+    margin-top: 7px;
+    border-left: 2px solid #DDD;
+    padding-left: 10px;
+}
+.prize .prize-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #da1d42;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prize {
+    display: flex;
+}
+/*End Our Top*/
+.search-container {
+    position: relative;
+    max-height: 52px;
+}
+.search-container select {
+    position: absolute;
+    top: 0;
+    height: 45px;
+    color: #999999;
+    outline: none;
+    font-family: 'OpenSans-Regular';
+}
+.search-container dutton {
+    position: absolute;
+    top: 0;
+    transform: translateY(13px);
+    right: 5px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 50px;
+       
+}
+.logo .resize {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+}
+
+.logo .resize .logo-info span {
+    color:#d0c4c4;
+}
+ .logo .bar-logo  {
+    padding: 10px;
+}
+ .logo .logo-info {
+    width: 15%;
+    height: 52px;
+    border: 2px solid #DDD;
+    padding-top: 8px;
+}
+
+    
+.logo .form-control {
+    padding: 10px;
+    height: 45px;
+    border-radius: 0;
+    font-family: 'OpenSans-Italic' ;
+    width: 340px;
+     margin-left: 82px;
+}
+
+
+/*top bar End*/
+
+/*Start Our Nav*/
+
+
+.info {
+    background-color: #171717;
+}
+ 
+nav .nav-info ul {
+   list-style-type: none;
+   margin: 0;
+   text-decoration: none;
+   padding: 0;
+   color: white;
+
+}
+nav .nav-info ul li span {
+    color: #be1c3b;
+}
+nav .nav-info ul li {
+    display: inline-block;
+    padding:20px;
+    color: white;
+    font-family:'OpenSans-SemiBold' ;
+}
+
+nav .nav-info ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+nav .nav-info ul li a:hover {
+    color:#8e8e8e;
+}
+/*End our Bar*/
+
+/*Start Our slider*/ 
+header {
+    position: relative;
+}
+header .slider-img {
+    position: relative;
+}
+
+header .slider-info  {
+    position: absolute;
+    top: 24%;
+    left: 35%;
+    z-index: 1;
+}
+header .slider-info h2 {
+    color: white;
+    font-size: 70px;
+    font-family: 'OpenSans-ExtraBold';
+    padding: 0;
+}
+header .slider-info p {
+    font-family: 'OpenSans-Light';
+    color: white;
+    letter-spacing: 2px;
+}
+.slider-info .style {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.slider-info .style ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.slider-info .style ul li a {
+    color:white;
+    transition: 1s;
+}
+.slider-info .style ul li {
+    border: 2px solid #FFF;
+    padding: 16px;
+    font-family:'OpenSans-SemiBold' ;
+}
+.slider-info .style ul li a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    z-index: 2;
+}
+.owl-theme .owl-dots .owl-dot span {
+    
+    background-color: white;
+}
+
+/*Start our Banners*/
+.baners {
+    margin-bottom: 50px;
+}
+
+.baners .imag-container{
+    display: flex;
+    position: relative;
+}
+.baners .imag-container .left{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+.baners .imag-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.baners .imag-container .imag-content{
+    padding: 10px;
+}
+.baners .imag-container .size .herf {
+    position: absolute;
+    top: 80%;
+    left: 86%;
+    width: 151px;
+    height: 125px;
+    background-color: #cf1c3f;
+    padding: 10px 5px 5px 5px;
+}
+.baners .imag-container .size .herf a{
+    text-decoration: none;
+    font-size: 30px;
+    color:White;
+    transition: 1s;
+    display: flex;
+    text-align: center;
+    padding:10px;
+    font-family: 'OpenSans-Light';
+}
+.baners .imag-container .size .herf a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+/*End Our Banner*/
+
+/*Start Our On Sale*/
+.on-sale {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.on-sale .sale h2 {
+    margin-bottom: 50px;
+    font-family: 'OpenSans-SemiBold';
+}
+.on-sale .product {
+    position: relative;
+}
+
+.on-sale .product .info {
+    top: 84%;
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    background-color: #d92547;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'OpenSans-bold';
+    transition: 1s;
+    opacity: 0;
+}
+.on-sale .product:hover .info{
+    opacity:1;
+}
+.on-sale .product .info p {
+    color:white;
+}
+.on-sale .prod-info h4 {
+    margin-top: 30px;
+    font-family: 'OpenSans-Regular';
+}
+.on-sale .prod-info p {
+    font-family:'OpenSans-bold';
+    color: #d92547;
+    font-size: 18px;
+}
+
+/* End Our sale*/
+
+/*Start Our Features*/
+
+.sub {
+    background-image: url('../images/featuers.png');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.sub .sub-info h2{
+    color: white;
+    margin-top: 14%;    
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.sub .sub-info p {
+    color: white;
+    font-size: 18px;
+    font-family: 'OpenSans-Regular';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sub .email-info input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #1e1e1e;
+    width: 50%;
+    text-align: center;
+    padding:10px;
+    margin: 13px;
+    outline: none;
+    margin-bottom: 30px;
+    color: white;
+}
+.sub .sweet {
+    background-color:#cf1c3f;
+     color: white;
+     font-family: 'OpenSans-Regular';
+     padding: 14px 44px 12px 46px;
+     border: none;
+     outline: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 1s;
+}
+.sub .sweet:hover {
+    color: yellow;
+    transform: scale(1.063);
+}
+/*End Our Sub */
+
+/* Start Our Feat */ 
+
+.featuers {
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.featuers .feat-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #DDD;
+    padding: 40px 0;
+}
+.featuers .feat-info h4 {
+    font-family:'OpenSans-SemiBold' ;
+}
+.featuers .feat-info p {
+    font-family:'OpenSans-SemiBold';
+    color: #d0c4c4;
+}
+/*End Our Feat*/
+
+/*Start Our Footer*/
+
+.footer-items {
+    
+    text-align: justify;
+}
+.footer-items h4 {
+    font-family:'OpenSans-SemiBold' ;
+}
+.footer-items ul {
+    padding-top: 10px;
+}
+.footer-items a{
+    color:#959595;
+    transition: 0.6s;
+}
+.footer-items a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.footer-items ul a li {
+    font-family: 'OpenSans-regular';
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
+}
+.logo-footer .logo-icons {
+    margin-top: 30px;
+    letter-spacing: 10px;
+    font-size: 16px;
+}
+.logo-footer .logo-icons a {
+    color:#959595;
+    transition: 0.7s;
+}
+.logo-footer .logo-icons a:hover {
+    color: red;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-top: 2px solid #DDD;
+    padding: 11px;
+}
+.footer-bottom p {
+    color: #959595;
+}
+.footer-bottom span {
+    color: #da1d42;
+    font-family:'OpenSans-Semibold' ;
+}
+.footer-bottom .paymant {
+    margin-left:30%;
+}
