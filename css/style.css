@@ -1,4 +1,4 @@
-body {
+ul{
     margin: 0;
     padding: 0;
 }
@@ -97,9 +97,20 @@ header {
         border-bottom: 1px solid #DDD;
     }
 }
+@media (max-width:375px) {
+    .bar-info {
+        padding: 1px;
+    }
+}
 header .bar-info i {
     padding: 20px;
-    
+}
+@media (max-width:375px) {
+    header .bar-info i {
+        padding: 0;
+        margin:10px;
+    }
+
 }
 
 header .bar-info i .right{
@@ -150,8 +161,8 @@ header .left-bar span {
 }
 @media (max-width:425px){
     .prize .prize-logo {
-        width: 25px;
-        height: 27px;
+        width: 29px;
+        height: 33px;
         font-size:9px;
     }
 }
@@ -291,6 +302,9 @@ nav .nav-info ul {
    margin: 0;
    text-decoration: none;
    color: white;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
 
 }
 nav .nav-info ul li span {
@@ -664,6 +678,7 @@ header .slider-info p {
         height: auto;
     }
 }
+
 .sub .sub-info h2{
     color: white;
     margin-top: 14%;    
@@ -765,9 +780,17 @@ header .slider-info p {
     border: 2px solid #DDD;
     padding: 40px 0;
 }
+
 @media (max-width:768px){
     .featuers .feat-info {
         width:82%;
+    }
+}
+@media (max-width:425px){
+    .featuers .feat-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 .featuers .feat-info h4 {
