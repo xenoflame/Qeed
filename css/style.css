@@ -92,6 +92,11 @@ header {
         border-bottom: none;
     }
 }
+@media (max-width:375px){
+    .top-bar {
+        display: block;
+    }
+}
 @media (max-width:425px) {
     .bar-info {
         border-bottom: 1px solid #DDD;
@@ -265,12 +270,6 @@ header .left-bar span {
     border: 2px solid #DDD;
     padding-top: 8px;
 }
-@media (max-width:425px){
-    .logo .logo-info {
-        
-    }
-}
-
     
 .logo .form-control {
     padding: 10px;
