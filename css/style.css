@@ -92,11 +92,7 @@ header {
         border-bottom: none;
     }
 }
-@media (max-width:375px){
-    .top-bar {
-        display: block;
-    }
-}
+
 @media (max-width:425px) {
     .bar-info {
         border-bottom: 1px solid #DDD;
@@ -110,6 +106,7 @@ header {
 @media (max-width:320px) {
     .bar-info {
         font-size: 11px;
+        display: flex;
     }
 }
 header .bar-info i {
@@ -332,7 +329,11 @@ nav .nav-info ul li {
         font-size: 7px;
     }
 }
-
+@media (max-width:320px){
+    nav .nav-info ul li {
+        font-size: 5px;
+    }
+}
 
 
 nav .nav-info ul li a {
