@@ -107,6 +107,11 @@ header {
         padding: 1px;
     }
 }
+@media (max-width:320px) {
+    .bar-info {
+        font-size: 11px;
+    }
+}
 header .bar-info i {
     padding: 20px;
 }
@@ -532,6 +537,12 @@ header .slider-info p {
     height: 72px;
     }
 }
+@media (max-width:375px) {
+    .baners .imag-container .size .herf {
+     top: 58%;
+     left: 81%;
+    }
+}
 .baners .imag-container .size .herf a{
     text-decoration: none;
     font-size: 30px;
@@ -574,6 +585,9 @@ header .slider-info p {
     .on-sale {
         margin-right: 0;
     }
+}
+.on-sale img { 
+    margin: auto;
 }
 
 .on-sale .sale h2 {
@@ -656,12 +670,10 @@ header .slider-info p {
 
 @media (max-width:768px) {
     .on-sale .prod-info {
-        margin-right: 83px;
         margin-bottom: 30px;
     }
 }
-
-
+    
 /* End Our sale*/
 
 /*Start Our Features*/
@@ -828,6 +840,7 @@ header .slider-info p {
     padding: 3px;
     font-weight: bold;
 }
+
 @media (max-width:768px){
     .logo-footer {
         margin-bottom:10px;
