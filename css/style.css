@@ -140,6 +140,7 @@ header .left-bar {
     header .left-bar {
         border:none;
         justify-content: space-between;
+        margin: 0;
     }
 }
 
@@ -491,7 +492,7 @@ header .slider-info p {
 .owl-theme .owl-dots, .owl-theme .owl-nav {
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 43%;
 }
 @media (max-width:768px) {
     .owl-theme .owl-dots, .owl-theme .owl-nav {
@@ -873,10 +874,7 @@ header .slider-info p {
 
 /* Start Our Feat */ 
 
-.featuers {
-    margin-left: 8%;
-    margin-bottom: 8%;
-}
+
 .featuers .feat-info {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -886,7 +884,7 @@ header .slider-info p {
 
 @media (max-width:768px){
     .featuers .feat-info {
-        width:82%;
+        width:100%;
     }
 }
 @media (max-width:425px){
@@ -908,8 +906,7 @@ header .slider-info p {
 /*Start Our Footer*/
 
 .footer-items {
-    
-    text-align: justify;
+
 }
 .footer-items h4 {
     font-family:'OpenSans-SemiBold' ;
@@ -936,6 +933,7 @@ header .slider-info p {
 @media (max-width:768px){
     .logo-footer {
         margin-bottom:10px;
+        width: 100%;
     }
 }
 @media (max-width:320px){
