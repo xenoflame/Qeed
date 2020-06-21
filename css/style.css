@@ -352,6 +352,7 @@ nav .nav-info ul li {
 nav .nav-info ul li a {
     color:white;
     text-decoration: none;
+    transition: .8s;
 }
 @media (max-width:425px) {
     nav .nav-info ul li a {
@@ -457,7 +458,7 @@ header .slider-info p {
 }
 .slider-info .style ul li a {
     color:white;
-    transition: 1s;
+    transition: 0.8s;
 }
 @media (max-width:425px) {
     .slider-info .style ul li a {
