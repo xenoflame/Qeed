@@ -249,7 +249,6 @@ header .left-bar span {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        margin-top: 2%;
         align-items: center;
 
 }
@@ -375,7 +374,7 @@ header .slider-img {
 header .slider-info  {
     position: absolute;
     top: 24%;
-    left: 35%;
+    left: 40%;
     z-index: 1;
 }
 @media (max-width:768px){
@@ -386,17 +385,24 @@ header .slider-info  {
 }
 @media (max-width:425px){
     header .slider-info{
-        top: 9%;
-        left: 32%;
+        top: 33px;
+        left: 36%;
     }
 }
+@media (max-width:320px){
+    header .slider-info{
+        top: 8px;
+        left: 31%;
+    }
+}
+
 header .slider-info h2 {
     color: white;
     font-size: 70px;
     font-family: 'OpenSans-ExtraBold';
     padding: 0;
 }
-@media (max-width:768px){
+@media (min-width:768px){
     header .slider-info h2 {
      font-size: 50px;
     }
@@ -411,7 +417,7 @@ header .slider-info p {
     color: white;
     letter-spacing: 2px;
 }
-@media (max-width:768px){
+@media (min-width:768px){
     header .slider-info p {
      letter-spacing: 1px;
     }
@@ -431,23 +437,19 @@ header .slider-info p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 20px;
 }
 @media (max-width:768px){
     .slider-info .style {
      font-size: 13px;
     }
 }
-@media (max-width:375px){
+@media (max-width:425px){
     .slider-info .style {
-     padding: 8px;
+     padding: 0px;
+     top: ;
     }
 }
-@media (max-width:320px){
-    .slider-info .style {
-     padding: 0;
-    }
-}
+
 .slider-info .style ul {
     list-style-type: none;
     padding: 0;
@@ -570,7 +572,7 @@ header .slider-info p {
     position: absolute;
     top: 81%;
     left: 86%;
-    width: 141px;
+    width: 126px;
     transform: translateX(10px);
     background-color: #cf1c3f;
     padding: 10px 5px 5px 5px;
@@ -580,7 +582,7 @@ header .slider-info p {
         position: absolute;
         top: 74%;
         left: 86%;
-        transform: translateY(10px);
+        transform: translateY(13px);
         width: 132px;
         height: 125px;
         padding: 10px 5px 5px 5px;
@@ -655,7 +657,6 @@ header .slider-info p {
         padding: 0;
     }
 }
-
 .baners .imag-container .size .herf a:hover {
     text-decoration: none;
     color:black;
@@ -800,16 +801,21 @@ header .slider-info p {
     font-size: 62px;
     margin-bottom: 20px;
 }
-@media (max-width:1024px){
+@media (min-width:768px){
     .sub .sub-info h2 {
         margin-top: 9%;
-        font-size: 40px;
+        font-size: 45px;
     }
 }
 @media (max-width:425px){
     .sub .sub-info h2 {
         
-        font-size: 14px;
+        font-size: 21px;
+    }
+}
+@media (max-width:375px){
+    .sub .sub-info h2 {
+        font-size:18px;
     }
 }
 .sub .sub-info p {
@@ -821,14 +827,20 @@ header .slider-info p {
 }
 @media (max-width:1024px){
     .sub .sub-info p {
-        font-size:12px;
+        font-size:15px;
         margin-bottom: 20px;
     }
 }
 @media (max-width:425px){
     .sub .sub-info p {
-        font-size:5px;
-        margin-bottom: 7px;
+        font-size:8px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:375px){
+    .sub .sub-info p {
+        font-size:7px;
+        margin-bottom: 0;
     }
 }
 
@@ -912,11 +924,7 @@ header .slider-info p {
 
 /*Start Our Footer*/
 
-@media (max-width:768px) {
-    .footer-items {
-        text-align: justify;
-    }
-}
+
 @media (max-width:425px) {
     .footer-items {
         text-align: unset;
@@ -975,7 +983,7 @@ header .slider-info p {
 }
 .footer-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
     border-top: 2px solid #DDD;
     padding: 11px;
@@ -988,12 +996,17 @@ header .slider-info p {
 .footer-bottom p {
     color: #959595;
 }
+@media (max-width:750px){
+    .footer-bottom p {
+        letter-spacing: 1px;
+        margin: 10px;
+
+    }
+}
+
 .footer-bottom span {
     color: #da1d42;
     font-family:'OpenSans-Semibold';
-}
-.footer-bottom .paymant {
-    margin-left:30%;
 }
 @media (max-width:768px){
     .footer-bottom .paymant {
