@@ -933,6 +933,11 @@ header .slider-info p {
         text-align: unset;
     }
 }
+@media (min-width:992px) {
+    .footer-items {
+        text-align: justify;
+    }
+}
 .footer-items h4 {
     font-family:'OpenSans-SemiBold' ;
 }
@@ -967,11 +972,7 @@ header .slider-info p {
         width: 100%;
     }
 }
-@media (max-width:320px){
-    .logo-footer {
-        margin-bottom:30px;
-    }
-}
+
 .logo-footer .logo-icons {
     margin-top: 20px;
     letter-spacing: 10px;
